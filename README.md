@@ -9,7 +9,7 @@ Proabably you found RAML standard very nice and useful, but the api-designer pro
 
 ## Install
 
-    npm install AlejoFernandez/api-designer-repository -g
+    npm install SoftwareCraftsmen/api-designer -g
 
 ## Usage
 
