@@ -5,7 +5,7 @@ var path = require('path');
 var util = require('util');
 var open = require('opener');
 var whichSync = require('which').sync;
-var server = require('..');
+var server = require('../bin/server');
 
 module.exports = main;
 
@@ -14,7 +14,7 @@ if (require.main == module)
 
 //-- Implementation --
 
-function main() {  
+function main() {
   openBrowserAndPrintInfo();
 }
 
@@ -25,5 +25,5 @@ function openBrowserAndPrintInfo() {
   open(url);
 
   console.log('Node Api-Designer is now available from %s', url);
-  
+
 }
